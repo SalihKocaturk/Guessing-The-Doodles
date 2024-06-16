@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEB8A5112C1FABC200D30E6D /* Guessing_The_DoodlesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB8A5102C1FABC200D30E6D /* Guessing_The_DoodlesApp.swift */; };
+		EEB8A5132C1FABC200D30E6D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB8A5122C1FABC200D30E6D /* ContentView.swift */; };
+		EEB8A5152C1FABC400D30E6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEB8A5142C1FABC400D30E6D /* Assets.xcassets */; };
+		EEB8A5182C1FABC400D30E6D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEB8A5172C1FABC400D30E6D /* Preview Assets.xcassets */; };
+		EEB8A5202C1FAD6000D30E6D /* MatchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB8A51F2C1FAD6000D30E6D /* MatchManager.swift */; };
+		EEB8A5222C1FAD8A00D30E6D /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB8A5212C1FAD8A00D30E6D /* MenuView.swift */; };
+		EEB8A5242C1FAD9300D30E6D /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB8A5232C1FAD9300D30E6D /* Misc.swift */; };
+		EEB8A5262C1FAD9B00D30E6D /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB8A5252C1FAD9B00D30E6D /* ButtonView.swift */; };
+		EEB8A5282C1FADA500D30E6D /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB8A5272C1FADA500D30E6D /* GameOverView.swift */; };
+		EEB8A52A2C1FADB000D30E6D /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB8A5292C1FADB000D30E6D /* GameView.swift */; };
+		EEB8A52C2C1FADBF00D30E6D /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB8A52B2C1FADBF00D30E6D /* DrawingView.swift */; };
+		EEB8A5302C1FADE000D30E6D /* MatchManager+GkMatchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB8A52F2C1FADE000D30E6D /* MatchManager+GkMatchManager.swift */; };
+		EEB8A5322C1FADE800D30E6D /* matchManager+gkMatchDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB8A5312C1FADE800D30E6D /* matchManager+gkMatchDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EEB8A50D2C1FABC200D30E6D /* Guessing The Doodles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Guessing The Doodles.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEB8A5102C1FABC200D30E6D /* Guessing_The_DoodlesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guessing_The_DoodlesApp.swift; sourceTree = "<group>"; };
+		EEB8A5122C1FABC200D30E6D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EEB8A5142C1FABC400D30E6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEB8A5172C1FABC400D30E6D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EEB8A51E2C1FACBD00D30E6D /* Guessing The Doodles.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Guessing The Doodles.entitlements"; sourceTree = "<group>"; };
+		EEB8A51F2C1FAD6000D30E6D /* MatchManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchManager.swift; sourceTree = "<group>"; };
+		EEB8A5212C1FAD8A00D30E6D /* MenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		EEB8A5232C1FAD9300D30E6D /* Misc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Misc.swift; sourceTree = "<group>"; };
+		EEB8A5252C1FAD9B00D30E6D /* ButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		EEB8A5272C1FADA500D30E6D /* GameOverView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
+		EEB8A5292C1FADB000D30E6D /* GameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		EEB8A52B2C1FADBF00D30E6D /* DrawingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
+		EEB8A52F2C1FADE000D30E6D /* MatchManager+GkMatchManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MatchManager+GkMatchManager.swift"; sourceTree = "<group>"; };
+		EEB8A5312C1FADE800D30E6D /* matchManager+gkMatchDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "matchManager+gkMatchDelegate.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEB8A50A2C1FABC200D30E6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEB8A5042C1FABC200D30E6D = {
+			isa = PBXGroup;
+			children = (
+				EEB8A50F2C1FABC200D30E6D /* Guessing The Doodles */,
+				EEB8A50E2C1FABC200D30E6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEB8A50E2C1FABC200D30E6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEB8A50D2C1FABC200D30E6D /* Guessing The Doodles.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEB8A50F2C1FABC200D30E6D /* Guessing The Doodles */ = {
+			isa = PBXGroup;
+			children = (
+				EEB8A51E2C1FACBD00D30E6D /* Guessing The Doodles.entitlements */,
+				EEB8A5102C1FABC200D30E6D /* Guessing_The_DoodlesApp.swift */,
+				EEB8A5122C1FABC200D30E6D /* ContentView.swift */,
+				EEB8A51F2C1FAD6000D30E6D /* MatchManager.swift */,
+				EEB8A5232C1FAD9300D30E6D /* Misc.swift */,
+				EEB8A5212C1FAD8A00D30E6D /* MenuView.swift */,
+				EEB8A5252C1FAD9B00D30E6D /* ButtonView.swift */,
+				EEB8A5292C1FADB000D30E6D /* GameView.swift */,
+				EEB8A52B2C1FADBF00D30E6D /* DrawingView.swift */,
+				EEB8A52F2C1FADE000D30E6D /* MatchManager+GkMatchManager.swift */,
+				EEB8A5272C1FADA500D30E6D /* GameOverView.swift */,
+				EEB8A5312C1FADE800D30E6D /* matchManager+gkMatchDelegate.swift */,
+				EEB8A5142C1FABC400D30E6D /* Assets.xcassets */,
+				EEB8A5162C1FABC400D30E6D /* Preview Content */,
+			);
+			path = "Guessing The Doodles";
+			sourceTree = "<group>";
+		};
+		EEB8A5162C1FABC400D30E6D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EEB8A5172C1FABC400D30E6D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEB8A50C2C1FABC200D30E6D /* Guessing The Doodles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEB8A51B2C1FABC400D30E6D /* Build configuration list for PBXNativeTarget "Guessing The Doodles" */;
+			buildPhases = (
+				EEB8A5092C1FABC200D30E6D /* Sources */,
+				EEB8A50A2C1FABC200D30E6D /* Frameworks */,
+				EEB8A50B2C1FABC200D30E6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Guessing The Doodles";
+			productName = "Guessing The Doodles";
+			productReference = EEB8A50D2C1FABC200D30E6D /* Guessing The Doodles.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEB8A5052C1FABC200D30E6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					EEB8A50C2C1FABC200D30E6D = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = EEB8A5082C1FABC200D30E6D /* Build configuration list for PBXProject "Guessing The Doodles" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEB8A5042C1FABC200D30E6D;
+			productRefGroup = EEB8A50E2C1FABC200D30E6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEB8A50C2C1FABC200D30E6D /* Guessing The Doodles */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEB8A50B2C1FABC200D30E6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB8A5182C1FABC400D30E6D /* Preview Assets.xcassets in Resources */,
+				EEB8A5152C1FABC400D30E6D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEB8A5092C1FABC200D30E6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB8A5322C1FADE800D30E6D /* matchManager+gkMatchDelegate.swift in Sources */,
+				EEB8A5282C1FADA500D30E6D /* GameOverView.swift in Sources */,
+				EEB8A5132C1FABC200D30E6D /* ContentView.swift in Sources */,
+				EEB8A5222C1FAD8A00D30E6D /* MenuView.swift in Sources */,
+				EEB8A5262C1FAD9B00D30E6D /* ButtonView.swift in Sources */,
+				EEB8A5202C1FAD6000D30E6D /* MatchManager.swift in Sources */,
+				EEB8A5302C1FADE000D30E6D /* MatchManager+GkMatchManager.swift in Sources */,
+				EEB8A5242C1FAD9300D30E6D /* Misc.swift in Sources */,
+				EEB8A52C2C1FADBF00D30E6D /* DrawingView.swift in Sources */,
+				EEB8A52A2C1FADB000D30E6D /* GameView.swift in Sources */,
+				EEB8A5112C1FABC200D30E6D /* Guessing_The_DoodlesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EEB8A5192C1FABC400D30E6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EEB8A51A2C1FABC400D30E6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEB8A51C2C1FABC400D30E6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Guessing The Doodles/Guessing The Doodles.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Guessing The Doodles/Preview Content\"";
+				DEVELOPMENT_TEAM = 93TA7AZTCY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.salihkocat-rk.Guessing-The-Doodles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEB8A51D2C1FABC400D30E6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Guessing The Doodles/Guessing The Doodles.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Guessing The Doodles/Preview Content\"";
+				DEVELOPMENT_TEAM = 93TA7AZTCY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.salihkocat-rk.Guessing-The-Doodles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEB8A5082C1FABC200D30E6D /* Build configuration list for PBXProject "Guessing The Doodles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB8A5192C1FABC400D30E6D /* Debug */,
+				EEB8A51A2C1FABC400D30E6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEB8A51B2C1FABC400D30E6D /* Build configuration list for PBXNativeTarget "Guessing The Doodles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB8A51C2C1FABC400D30E6D /* Debug */,
+				EEB8A51D2C1FABC400D30E6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEB8A5052C1FABC200D30E6D /* Project object */;
+}
